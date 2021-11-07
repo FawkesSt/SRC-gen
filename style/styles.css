@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(180deg, #4CB798 0%, #7CE495 100%);
+    height: 100vh;
+    font-family: font-family: 'Poppins', sans-serif;
+}
+
+.navMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#363636;
+    width: 100%;
+    margin: 0;
+}
+
+.navMenu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.navMenu img{
+    margin-left: 4rem;
+}
+
+.navItems{
+    list-style:none;
+    display: flex;
+    margin-right: 10rem;
+}
+
+.navItems li{
+   margin: 0rem 4rem 0rem 1rem;
+}
+
+.mainContainer h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.mainSection{
+    display: flex;
+    padding: 5rem;
+    margin-top: 10rem;
+}
+
+.personaPic{
+    width: 700px;
+    height: auto;
+}
