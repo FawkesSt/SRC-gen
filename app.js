@@ -5,12 +5,6 @@ let postLink = document.querySelector("#links");
 getForm.addEventListener('submit', appendLink);
 postLink.addEventListener('click', copyNote);
 
-
-
-
-
-
-
 function  appendLink(e){
     e.preventDefault();
  

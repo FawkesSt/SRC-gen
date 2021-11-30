@@ -4,10 +4,19 @@
     margin: 0;
 }
 
+:root{
+    --dark: #363636;
+    --light-green: #7CE495;
+    --green: #4CB798;
+    --dark-green: #51AA90;
+    --blue: #326C93;
+    --white: #fff;
+}
+
 body{
     background: linear-gradient(180deg, #4CB798 0%, #7CE495 100%);
     height: 100vh;
-    font-family: font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navMenu{
@@ -46,6 +55,13 @@ body{
 
 }
 
+.mainContainer p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark);
+
+}
+
 .mainSection{
     display: flex;
     padding: 5rem;
@@ -55,4 +71,22 @@ body{
 .personaPic{
     width: 700px;
     height: auto;
+}
+
+.box{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 14rem;
+    background-color: var(--green);
+    border-top: solid 2px var(--dark-green);
+    z-index: -1;
+}
+
+.box h4{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 80px;
+    color: var(--blue);
+    font-weight: normal;
 }
