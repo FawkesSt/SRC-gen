@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --dark: #363636;
+    --light-green: #7CE495;
+    --green: #4CB798;
+    --dark-green: #51AA90;
+    --blue: #326C93;
+    --white: #fff;
+}
+
+body{
+    background: linear-gradient(180deg, #4CB798 0%, #7CE495 100%);
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 58px;
+}
+
+.navMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#363636;
+    width: 100%;
+    height: 58px;
+    margin: 0;
+}
+
+.navMenu a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5rem;
+}
+
+
+.navMenu img{
+    margin-left: 4rem;
+}
+
+.navItems{
+    list-style:none;
+    display: flex;
+    margin-right: 10rem;
+}
+
+.navItems li{
+   margin: 0rem 4rem 0rem 1rem;
+}
